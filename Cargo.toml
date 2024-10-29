@@ -18,7 +18,8 @@ wgpu = "22.0.0"
 euclid = "0.22.7"
 fontdue = "0.8.0"
 rect_packer = "0.2.1"
-cosmic-text = "0.12.1"
+cosmic-text = { git = "https://github.com/pop-os/cosmic-text.git", features = ["shape-run-cache"], rev = "4fe90bb"  }
+
 
 [dev-dependencies]
 png = "0.17.6"
